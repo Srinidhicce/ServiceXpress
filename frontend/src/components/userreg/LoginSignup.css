@@ -1,0 +1,63 @@
+/* Container with background color, shadow, and padding */
+.auth-container {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #ffffff;
+    /* Solid white background */
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+    position: relative;
+    /* Ensures proper stacking */
+}
+
+/* Title styling */
+.auth-title {
+    text-align: center;
+    font-weight: 600;
+    color: #3f51b5;
+    margin-bottom: 20px;
+}
+
+/* Input field spacing */
+.MuiTextField-root {
+    margin-bottom: 16px !important;
+}
+
+/* Button styling */
+.MuiButton-root {
+    margin-top: 12px;
+    text-transform: none;
+    font-weight: bold;
+}
+
+/* For Login page container */
+.login-container {
+    max-width: 400px;
+    background: #f7f9fc;
+    /* Background for better contrast */
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* For Sign Up page container */
+.signup-container {
+    max-width: 400px;
+    background: #f7f9fc;
+    /* Background for better contrast */
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .auth-container {
+        padding: 20px 10px;
+    }
+
+    .auth-title {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,15 @@
+.about-us-link-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-us-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ece8f4;
+    font-weight: bold;
+}
+
+.about-us-link:hover {
+    text-decoration: underline;
+}

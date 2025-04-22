@@ -1,0 +1,107 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #fff;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-elements {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-elements ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-elements li {
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav-elements a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 6px;
+}
+
+.nav-elements a.active,
+.nav-elements a:hover {
+    border-bottom: 2px solid #64a0e0;
+    color: #64a0e0;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    /* Move icons slightly inside */
+    gap: 12px;
+    /* Adds spacing between items */
+}
+
+.nav-button {
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 12px;
+    transition: all 0.3s ease;
+}
+
+.nav-button.login {
+    background-color: #64a0e0;
+    color: white;
+}
+
+.nav-button.signup {
+    background-color: #64a0e0;
+    color: white;
+}
+
+.nav-button:hover {
+    opacity: 0.85;
+}
+
+.icon {
+    font-size: 28px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.icon:hover {
+    color: #64a0e0;
+}

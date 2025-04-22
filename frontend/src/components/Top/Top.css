@@ -1,0 +1,71 @@
+.quote {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.quote-icon {
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+.services {
+    margin-top: 40px;
+}
+
+.swiper-container {
+    padding: 0 20px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.service-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 3px solid #f0f0f0;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.service-item:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.service-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: #dfe7e0;
+    border-radius: 50%;
+    color: white;
+    padding: 8px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #4CAF50;
+}

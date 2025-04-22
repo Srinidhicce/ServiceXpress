@@ -1,0 +1,62 @@
+.footer {
+    background: url('path/to/your/image.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 1rem 0.5rem;
+    /* Further reduced padding */
+    color: var(--white);
+    background-color: rgb(236, 236, 243);
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    /* Reduced the minimum box width further */
+    gap: 0.8rem;
+    /* Reduced gap between boxes */
+}
+
+.footer .box {
+    background: rgba(208, 201, 201, 0.5);
+    padding: 0.8rem;
+    /* Reduced padding */
+    border-radius: 6px;
+    /* Smaller box padding */
+}
+
+.footer .box h3 {
+    font-size: 16px;
+    /* Smaller heading */
+    padding-bottom: 0.8rem;
+}
+
+.footer .box a {
+    color: var(--light-white);
+    font-size: 0.9rem;
+    /* Smaller link text */
+    padding-bottom: 0.6rem;
+    display: block;
+    text-decoration: none;
+}
+
+.footer .box a i {
+    color: var(--main-color);
+    padding-right: 0.4rem;
+    transition: 0.2s linear;
+}
+
+.footer .box a:hover i {
+    padding-right: 0.6rem;
+}
+
+.footer .credit {
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    border-top: 0.1rem solid var(--light-white);
+    font-size: 1rem;
+    /* Reduced font size */
+}
+
+.footer .credit span {
+    color: var(--main-color);
+}
